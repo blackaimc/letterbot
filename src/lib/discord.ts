@@ -30,18 +30,18 @@ export default async({ weather, news, date, url }: discordArgs) => {
         inline: true
       },
       {
-        name: '🏞️ 날씨 / 부산',
+        name: '🏞️ 날씨 / 수원',
         value: weather.weather,
         inline: true
       },
       {
-        name: '🌡 온도 / 부산',
+        name: '🌡 온도 / 수원',
         value: weather.temp,
         inline: true
       }
     ],
     footer: {
-      text: '제작자 : 재웜',
+      text: '제작자 : 카이',
       icon_url: 'https://images-ext-2.discordapp.net/external/GyQicPLz_zQO15bOMtiGTtC4Kud7JjQbs1Ecuz7RrtU/https/cdn.discordapp.com/embed/avatars/1.png'
     },
   });

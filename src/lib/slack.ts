@@ -29,18 +29,18 @@ export default async({ weather, news, date, url }: slackArgs) => {
         short: true,
       },
       {
-        title: '🏞️ 날씨 / 부산',
+        title: '🏞️ 날씨 / 수원',
         value: weather.weather,
         short: true,
       },
       {
-        title: '🌡 온도 / 부산',
+        title: '🌡 온도 / 수원',
         value: weather.temp,
         short: true,
       },
     ],
 
-    footer: '제작: 재웜',
+    footer: '제작: 카이',
     footer_icon: 'https://images-ext-2.discordapp.net/external/GyQicPLz_zQO15bOMtiGTtC4Kud7JjQbs1Ecuz7RrtU/https/cdn.discordapp.com/embed/avatars/1.png',
   });
 
